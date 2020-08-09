@@ -1,0 +1,11 @@
+.button {
+  background-color: rgb(216, 216, 216);
+  font-family: "Thasadith", sans-serif;
+  font-size: 2rem;
+  border-style: outset;
+  border-color: white;
+}
+
+.button:hover {
+  background-color: rgb(196, 196, 196);
+}

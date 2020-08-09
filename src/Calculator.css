@@ -1,14 +1,18 @@
-.Calculator {
-  background-color: rgb(107, 97, 97);
+.calculator {
+  background-color: rgb(122, 122, 122);
   width: 350px;
   border-style: outset;
   border-width: thin;
+  border-color: white;
   height: 450px;
 }
 #display {
-  font-family: "American Typewriter";
-  font-size: large;
-  border-style: outset;
+  background-color: rgb(43, 43, 43);
+  font-family: "Thasadith", sans-serif;
+  font-size: 2rem;
+  color: white;
+  border-style: inset;
+  border-color: rgb(168, 168, 168);
   height: 50px;
   margin-right: 5px;
   margin-left: 5px;
@@ -22,7 +26,7 @@
   padding: 5px;
   grid-template-columns: repeat(4, 1fr);
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 1px;
 }
 
 #clear {
