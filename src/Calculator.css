@@ -1,10 +1,14 @@
 .Calculator {
+  background-color: rgb(107, 97, 97);
   width: 350px;
-  border-style: groove;
+  border-style: outset;
   border-width: thin;
   height: 450px;
 }
-#input {
+#display {
+  font-family: "American Typewriter";
+  font-size: large;
+  border-style: outset;
   height: 50px;
   margin-right: 5px;
   margin-left: 5px;
@@ -13,7 +17,7 @@
   margin-top: 5px;
 }
 
-.buttons {
+.buttonContainer {
   height: 379px;
   padding: 5px;
   grid-template-columns: repeat(4, 1fr);
