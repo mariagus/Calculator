@@ -1,0 +1,32 @@
+.Calculator {
+  width: 350px;
+  border-style: groove;
+  border-width: thin;
+  height: 450px;
+}
+#input {
+  height: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: right;
+  width: -webkit-fill-available;
+  margin-top: 5px;
+}
+
+.buttons {
+  height: 379px;
+  padding: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-gap: 5px;
+}
+
+#clear {
+  grid-column: span 2;
+}
+#decimal {
+  grid-column: span 2;
+}
+#equals {
+  grid-row: span 2;
+}
