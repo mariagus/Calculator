@@ -9,7 +9,7 @@
 #display {
   background-color: rgb(43, 43, 43);
   font-family: "Thasadith", sans-serif;
-  font-size: 2rem;
+  font-size: 2em;
   color: white;
   border-style: inset;
   border-color: rgb(168, 168, 168);
@@ -18,6 +18,7 @@
   margin-left: 5px;
   text-align: right;
   width: -webkit-fill-available;
+  overflow: scroll;
   margin-top: 5px;
 }
 
@@ -37,4 +38,10 @@
 }
 #equals {
   grid-row: span 2;
+}
+
+.footer {
+  font-family: "Thasadith";
+  color: white;
+  text-align: center;
 }

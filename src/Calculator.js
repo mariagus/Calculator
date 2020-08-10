@@ -34,8 +34,11 @@ function Calculator() {
         <Button id="three" label="3" onClick={handleClick} />
         <Button id="equals" label="=" onClick={handleClick} />
         <Button id="zero" label="0" onClick={handleClick} />
-        <Button id="decimal" label="." />
+        <Button id="decimal" label="." onClick={handleClick} />
       </div>
+      <p className="footer">
+        designed and coded by <strong>Maria Gusova</strong>
+      </p>
     </div>
   );
 }
