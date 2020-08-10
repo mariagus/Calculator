@@ -3,9 +3,12 @@ import "./Calculator.css";
 import Button from "./components/Button";
 
 function Calculator() {
-  const [output, setOutput] = useState("");
+  const [output, setOutput] = useState("0");
 
   function handleClick(label) {
+    if (output === "0") {
+      setOutput("");
+    }
     if (label === "=") {
       setOutput(eval(output.replace(/x/g, "*")));
     } else {
@@ -18,7 +21,7 @@ function Calculator() {
     <div className="calculator">
       <div id="display">{output}</div>
       <div className="buttonContainer">
-        <Button id="clear" label="C" onClick={() => setOutput("")} />
+        <Button id="clear" label="C" onClick={() => setOutput("0")} />
         <Button id="divide" label="/" onClick={handleClick} />
         <Button id="multiply" label="x" onClick={handleClick} />
         <Button id="seven" label="7" onClick={handleClick} />
