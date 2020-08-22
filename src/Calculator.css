@@ -8,8 +8,8 @@
 }
 #display {
   background-color: rgb(43, 43, 43);
-  font-family: "Thasadith", sans-serif;
-  font-size: 2em;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.8em;
   color: white;
   border-style: inset;
   border-color: rgb(168, 168, 168);
@@ -44,4 +44,12 @@
   font-family: "Thasadith";
   color: white;
   text-align: center;
+}
+.myLink:link {
+  color: white;
+  text-decoration: none;
+}
+.myLink:visited {
+  color: white;
+  text-decoration: none;
 }

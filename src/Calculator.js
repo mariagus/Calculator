@@ -39,7 +39,15 @@ function Calculator() {
         <Button id="decimal" label="." onClick={handleClick} />
       </div>
       <p className="footer">
-        designed and coded by <strong>Maria Gusova</strong>
+        designed and coded by{" "}
+        <a
+          href="https://mariagusova.com"
+          className="myLink"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <strong>Maria Gusova</strong>
+        </a>
       </p>
     </div>
   );
