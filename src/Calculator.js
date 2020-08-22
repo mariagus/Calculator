@@ -14,7 +14,6 @@ function Calculator() {
     } else {
       setOutput((prevState) => prevState + label);
     }
-    // create a calculation function that will be performed when equals is pressed.
   }
 
   return (
