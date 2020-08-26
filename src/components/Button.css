@@ -4,6 +4,7 @@
   font-size: 2rem;
   border-style: outset;
   border-color: white;
+  outline: none;
 }
 
 .button:hover {
